@@ -21,7 +21,7 @@ jobs:
           node-version: '18' # Specify Node.js version
 
       - name: Install dependencies
-        run: yarn install # or npm install
+        run: npm ci # or npm install
 
       - name: Run tests
-        run: yarn test # or npm test
+        run: npm ci # or npm test

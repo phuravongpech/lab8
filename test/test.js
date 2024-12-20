@@ -1,12 +1,9 @@
-module.exports = app;
-s
+// test/test.js
+const chai = require('chai');
+const assert = chai.assert;
 
-import { assert } from 'chai';
-import app from '../app.js';
 describe('Simple test', function() {
- it('should return hello message', function() {
- assert.equal('Hello, Teacher', 'Hello, Teacher');
- });
+    it('should return hello message', function() {
+        assert.equal('Hello, GitHub Actions!', 'Hello, GitHub Actions!');
+    });
 });
-
-//test/test.js
